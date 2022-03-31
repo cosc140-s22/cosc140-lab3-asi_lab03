@@ -2,15 +2,19 @@
 
 ## Answers to the five questions at the end of the lab description
 
-1.
+1. shark = Product(name="stuffed shark", price= 45, minimum_age_appropriate=2, maximum_age_appropriate=43, description="soft, but with pointy teeth")
 
-2.
+2. Product.objects.all()
 
-3.
+3. >>> newProd = Product.objects.get(pk = 6)
+>>> newProd.price = 22.50
+>>> print(newProd)
+   
 
-4.
-
-5.
+4. newProd = Product.objects.get(pk = 6)
+   newProd.delete()
+   null
+5. objects = Product.objects.filter(name__icontains='stuffed').filter(price__gt< 10)
 
 ## Lab feedback
 
