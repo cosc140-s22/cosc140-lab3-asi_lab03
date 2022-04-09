@@ -24,5 +24,9 @@
 
 ## Feedback
 
-Once you commit and submit your work to Github, I'll update this section with feedback.
+S
+
+Good work.  
+
+On 4, technically it is `None` (null is a database type, but None is what you'd see in Python).  
 
